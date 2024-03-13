@@ -26,21 +26,21 @@ const App = () => {
       <Taskform setTasks={setTasks} />
       <main className="app_main">
         <TaskColumn
-          task="To do"
+          title="To do"
           icon={todoicon}
           tasks={tasks}
           status="todo"
           handleDelete={handleDelete}
         />
         <TaskColumn
-          task="Doing"
+          title="Doing"
           icon={doingicon}
           tasks={tasks}
           status="doing"
           handleDelete={handleDelete}
         />
         <TaskColumn
-          task="Done"
+          title="Done"
           icon={doneicon}
           tasks={tasks}
           status="done"
